@@ -1,0 +1,38 @@
+const _ = require('lodash')
+const countryList = require('./countrylist')
+
+const acCountryList = () => {
+  /**
+   * Returns a short list of all countries. Each entry with country name, iso2/alpha2code and the spoken languages.
+   */
+  const shortList = () => {
+    return _.map(countryList, (item) => {
+      return {
+        name: item.name,
+        iso2: _.toLower(item.alpha2Code),
+        alpha2Code: _.toLower(item.alpha2Code),
+        languages: item.languages
+      }
+    })
+  }
+
+  /**
+   * This function ingests a query params (currently iso2 only) and returns the country.
+   *
+   * @param params.iso2 STRING iso2 code
+   */
+  const query = (params) => {
+    const iso2 = _.get(params, 'iso2')
+
+    const findQuery = {}
+    if (iso2) _.set(findQuery, 'alpha2Code', _.toUpper(iso2))
+    return _.find(countryList, findQuery)
+  }
+
+  return {
+    shortList,
+    query
+  }
+}
+
+module.exports = acCountryList()
