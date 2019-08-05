@@ -2,7 +2,7 @@
   "name": "ac-countrylist",
   "version": "1.0.0",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   },
   "repository": "mmpro/ac-countrylist",
   "license": "MIT",
@@ -11,16 +11,11 @@
     "corp-semantic-release": "git+https://github.com/mmpro/corp-semantic-release.git",
     "cz-customizable": "git+https://github.com/mmpro/cz-customizable.git",
     "eslint": "^6.0.1",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
     "expect": "^24.7.1",
-    "husky": "^3.0.0",
+    "husky": "^3.0.2",
     "mocha": "^6.1.4",
-    "mocha-jenkins-reporter": "^0.4.1",
-    "mocha-junit-reporter": "^1.21.0"
+    "mocha-jenkins-reporter": "^0.4.2",
+    "mocha-junit-reporter": "^1.23.1"
   },
   "config": {
     "commitizen": {
