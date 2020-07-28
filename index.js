@@ -16,6 +16,13 @@ const acCountryList = () => {
     })
   }
 
+    /**
+   * Returns a random country from the list
+   */
+  const random = () => {
+    return _.sample(countryList)
+  }
+
   /**
    * This function ingests a query params (currently iso2 only) and returns the country.
    *
@@ -31,6 +38,7 @@ const acCountryList = () => {
 
   return {
     shortList,
+    random,
     query
   }
 }
