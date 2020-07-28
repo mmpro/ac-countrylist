@@ -56,6 +56,18 @@ const country = acCountryList.query({ iso2: 'de' })
   languages: [ 'de' ] }
 ```
 
+### Fetch random country
+Return a random country
+```
+const randomCountry = acCountryList.random()
+//
+{ name: 'Afghanistan',
+  iso2: 'af',
+  alpha2Code: 'af',
+  languages: [ 'ps', 'uz', 'tk' ] 
+}
+```
+
 ## Links
 - [Website](https://www.admiralcloud.com/)
 - [Twitter (@admiralcloud)](https://twitter.com/admiralcloud)
