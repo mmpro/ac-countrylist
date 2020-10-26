@@ -1,3 +1,16 @@
+<a name="1.0.4"></a>
+
+## [1.0.4](https://github.com/mmpro/ac-countrylist/compare/v1.0.3..v1.0.4) (2020-10-26 15:04:53)
+
+
+### Bug Fix
+
+* **App:** Allow iso3 search | MP | [30dcaf6551ee8ef4e27a58969b0d8cc65cc5e447](https://github.com/mmpro/ac-countrylist/commit/30dcaf6551ee8ef4e27a58969b0d8cc65cc5e447)    
+Allow iso3 search
+### Chores
+
+* **App:** Updated packages | MP | [32b3ba576a751338457fcd93246b8bbfcc36696a](https://github.com/mmpro/ac-countrylist/commit/32b3ba576a751338457fcd93246b8bbfcc36696a)    
+Updated packages
 <a name="1.0.3"></a>
 
 ## [1.0.3](https://github.com/mmpro/ac-countrylist/compare/v1.0.2..v1.0.3) (2020-07-28 11:38:18)
