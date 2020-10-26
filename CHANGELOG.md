@@ -1,3 +1,12 @@
+<a name="1.0.5"></a>
+
+## [1.0.5](https://github.com/mmpro/ac-countrylist/compare/v1.0.4..v1.0.5) (2020-10-26 15:19:46)
+
+
+### Bug Fix
+
+* **App:** Allow search for country name | MP | [a6872bed26d3cb8cb64edcbe96e2bb58ef6a7ed7](https://github.com/mmpro/ac-countrylist/commit/a6872bed26d3cb8cb64edcbe96e2bb58ef6a7ed7)    
+Search country name in native name, translation and name.
 <a name="1.0.4"></a>
 
 ## [1.0.4](https://github.com/mmpro/ac-countrylist/compare/v1.0.3..v1.0.4) (2020-10-26 15:04:53)
