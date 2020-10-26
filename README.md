@@ -21,9 +21,12 @@ const list = acCountryList.showList()
 ```
 
 ### Query list
-Query the country list (currently only iso2 is supported)
+Query the country list (currently only iso2 and iso3 is supported)
 ```
 const country = acCountryList.query({ iso2: 'de' })
+// OR
+const country = acCountryList.query({ iso3: 'deu' })
+
 // -> { name: 'Germany',
   capital: 'Berlin',
   altSpellings:
