@@ -2,7 +2,7 @@
   "name": "ac-countrylist",
   "version": "1.0.5",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   },
   "repository": "mmpro/ac-countrylist",
   "license": "MIT",
